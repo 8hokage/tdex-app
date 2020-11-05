@@ -31,15 +31,13 @@ const Login: React.FC<LoginInterface & RouteComponentProps> = ({setIsAuth, histo
     if (!firstPin) {
       setFirstPin(inputValue);
       setValue("");
-    } else if (firstPin && inputValue && firstPin.localeCompare(inputValue)) {
-      // setIsAuth(true)
-      // history.replace("/");
     } else {
-      setFirstPin("");
-      setValue("");
+
+      setIsAuth(true)
+      history.replace("/");
     }
   }
-
+ 
   return (
     <IonPage>
       <div className="gradient-background"></div>

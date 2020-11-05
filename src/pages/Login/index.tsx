@@ -39,7 +39,7 @@ const Login: React.FC<LoginInterface & RouteComponentProps> = ({setIsAuth, histo
       setValue("");
     }
   }
-
+ 
   return (
     <IonPage>
       <div className="gradient-background"></div>

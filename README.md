@@ -7,4 +7,8 @@
 
 2. ```sh  $ npm install```
 3. ```sh $ npm install -g @ionic/cli```
-4. ```sh $ npm run start``` it opens it in browser
+web
+4. ```sh $ npm run start-web``` it opens it in browser
+android
+4. ```sh $ npm run build```
+4. ```sh $ npm run start-android```

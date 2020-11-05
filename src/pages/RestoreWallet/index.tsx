@@ -32,7 +32,7 @@ const RestoreWallet: React.FC<RouteComponentProps> = ({ history }) => {
               <IonTitle>Secret phrase</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent>
+        <IonContent className="restore">
           <PageDescription
             title="RestoreWallet"
           >
